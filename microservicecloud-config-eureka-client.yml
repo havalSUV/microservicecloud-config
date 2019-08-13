@@ -8,7 +8,7 @@ server:
  
 spring:
   profiles: dev
-    application: #zs 
+  application: #zs 
       name: microservicecloud-config-eureka-client
 eureka:
   instance:
@@ -24,8 +24,8 @@ server:
  
 spring: 
   profiles: test
-    application: 
-      name: microservicecloud-config-eureka-client
+  application: 
+     name: microservicecloud-config-eureka-client
 eureka:
   instance:
     hostname: eureka7001.com #eureka服务端的实例名称
